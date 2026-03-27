@@ -1,6 +1,7 @@
 A very simple debugging monitor capability using Apple's Wozmon.  Mainly a test of writing to a TCP address via Fujinet.
 
-To use change the IP destination in the code to be your endpoint (netcat works well)
+To use change the IP destination in main.c to be your endpoint (netcat works well)
+
 const char url[]="N:TCP://192.168.1.97:6502";
 
 Core Commands and Syntax
